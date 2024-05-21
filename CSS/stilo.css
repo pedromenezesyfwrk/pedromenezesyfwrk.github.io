@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(black, #391679);
+}
+
+div {
+    width: 100%;
+    height: 400px;
+}
+
+nav, footer {
+    height: 100px;
+    background-color: rgb(51, 51, 51);
+}
+
+nav {
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 60px;
+}
+
+a:hover {
+    color: red;
+}
+
+p, h1, h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navtext {
+    text-align: center;
+    margin: 30px 130px 0 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container#principal {
+    margin-bottom: 160px;
+}
+
+.prin, .perfil, .port {
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 300px;
+    max-width: 400px;
+    min-width: 280px;
+    text-align: center;
+}
+
+.prin h1, .perfil h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.prin img, .prin p,
+.perfil img, .perfil p {
+    margin-bottom: 10px;
+}
+
+.prin img {
+    max-width: 100%;
+    height: auto;
+}
+
+.perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.port a {
+    border-radius: 4px;
+    transition: color 0.3s;
+}
+
+.contact {
+    position: absolute;
+    text-align: center;
+}
+
+#one, #two, #three {
+    transform: translateY(-80px);
+}
+
+#one {
+    right: 350px;
+}
+
+#two {
+    left: 350px;
+}
+
+.nome, .linkfalso {
+    margin-bottom: 10px;
+}
+
+.contact img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.formulario {
+    max-width: 500px;
+    height: 560px;
+    margin: 0 auto;
+    padding: 20px 30px 20px 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.formulario textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.formulario button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #0056b3;
+}

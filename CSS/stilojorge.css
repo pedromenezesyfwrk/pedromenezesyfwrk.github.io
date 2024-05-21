@@ -1,0 +1,37 @@
+.font {
+    font-family: 'Courier New', monospace;
+}
+
+.pagina {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    row-gap: 60px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto 70% auto;
+    grid-template-rows: repeat(4, auto);
+    grid-column: 1 / -1;
+}
+
+.perfil {
+    display: grid;
+    width: 180px;
+    height: 200px;
+    grid-row: span 2;
+}
+
+.nome {
+    font: bold 50px 'Courier New', monospace;
+    grid-column: 2;
+}
+
+.descrição, .bio {
+    grid-column: 2;
+}
+
+.interesse, .hardsoft, .hist {
+    width: 200px;
+    height: 200px;
+}

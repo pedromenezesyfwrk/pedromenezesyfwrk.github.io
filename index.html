@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stilo.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Spin Productions</title>
+</head>
+<body>
+    <nav>
+        <img id="logo" src="imagens/spin.png" width="165" height="100">
+        <p class="font" id="navtext"><a href="#principal">Principal</a> | <a href="#quem">Quem Somos?</a> | <a href="#port">Portfólios</a> | <a href="#contato">Contato</a></p>
+    </nav>
+    <div class="formulario">
+        <h3>Faça seu orçamento</h3>
+        <form id="orcamentoForm">
+        <label for="nome">Primeiro Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="nome">Segundo Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="email">Digite seu email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem"></textarea><br>
+        <button type="button" onclick="validarFormulario()">Enviar</button>
+        </form>            
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container" id="principal">
+        <div class="prin">
+            <h1>Missão e Visão</h1>
+            <img src="imagens/missao.png">
+            <p>Temos o propósito de se destacar como uma equipe rápida, simples e eficiente no mercado de trabalho</p>
+        </div>
+        <div class="prin">
+            <h1>Expertise e Tecnologias</h1>
+            <img src="imagens/engrenagem.png">
+            <p>Expertise nas áreas de front-end e backend, linguagens como HTML, CSS  e Javascript e também Python, Java e C# </p>
+        </div>
+        <div class="prin">
+            <h1>Processo de Desenvolvimento</h1>
+            <img src="imagens/processo.png">
+            <p>Somos um trio engajado no planejamento, discussão, e divisão de tarefas para a execução dos projetos</p>
+        </div>
+    </div>
+    <div class="container" id="quem">
+        <div class="perfil">
+            <img src="imagens/alexperfil.JPG">
+            <h1 class="nome">Alex</h1>
+            <p class="description">Alex é o front-end expert da equipe, apaixonado por criar interfaces de usuário atraentes e intuitivas. Com um olho aguçado para design e habilidades avançadas em HTML, CSS e JavaScript, Alex transforma ideias em experiências visuais impressionantes e funcionais.</p>
+        </div>
+        <div class="perfil">
+            <img src="imagens/pedroperfil.jpeg">
+            <h1 class="nome">Pedro</h1>
+            <p class="description">Pedro é o back-end guru, especializado em garantir que a lógica do servidor e as operações de banco de dados funcionem perfeitamente. Com vasta experiência em Python, Java e C#, ele desenvolve soluções robustas e escaláveis que alimentam nossas aplicações e serviços.</p>
+        </div>
+        <div class="perfil">
+            <img src="imagens/perfiljorge.jpg">
+            <h1 class="nome">Jorge</h1>
+            <p class="descrisption">Jorge é o engenheiro full-stack e o mediador do grupo. Com competências sólidas em ambas as áreas, ele une o trabalho de Alex e Pedro, garantindo uma integração suave entre o front-end e o back-end. Além disso, Jorge é um excelente coordenador de projetos, assegurando que todas as partes do projeto se mantenham em sincronia.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container" id="port">
+        <div class="port">
+            <a href="portalex.html">Portfólio Alex</a>
+        </div>
+        <div class="port">
+            <a href="portpedro.html">Portfólio Pedro</a>
+        </div>
+        <div class="port">
+            <a href="portjorge.html">Portfólio Jorge</a>
+        </div>
+    </div>
+    <div id="contato">
+        <div class="contact" id="one">
+            <h1 class="nome">Alex</h1>
+            <img src="imagens/email.png">
+            <p class="linkfalso">alex@gmail.com</p>
+            <img src="imagens/giticon.png">
+            <p class="linkfalso">alexgithub</p>
+            <img src="imagens/linkedin.png">
+            <p class="linkfalso">alexlinkedin</p>
+        </div>
+        <div class="contact" id="two">
+            <h1 class="nome">Pedro</h1>
+            <img src="imagens/email.png">
+            <p class="linkfalso">pedro@gmail.com</p>
+            <img src="imagens/giticon.png">
+            <p class="linkfalso">pedrogithub</p>
+            <img src="imagens/linkedin.png">
+            <p class="linkfalso">pedrolinkedin</p>
+        </div>
+        <div class="contact" id="three">
+            <h1 class="nome">Jorge</h1>
+            <img src="imagens/email.png">
+            <p class="linkfalso">jorge@gmail.com</p>
+            <img src="imagens/giticon.png">
+            <p class="linkfalso">jorgegithub</p>
+            <img src="imagens/linkedin.png">
+            <p class="linkfalso">jorgelinkedin</p>
+        </div>
+    </div>
+    <footer><p>&copy; Copyright Madrigal Electromotive</p></footer>
+</body>
+</html>
